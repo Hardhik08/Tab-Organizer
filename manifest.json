@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Organizer",
+    "version": "1.0",
+    "description": "Organize your tabs by category.",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "logo.png"
+    }
+  }
+  
